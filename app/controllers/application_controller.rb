@@ -8,4 +8,11 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
+  
+  get "/new_york" do
+    erb :new_york
+  end
+  get "/cape_town" do
+    erb :cape_town
+  end
 end
